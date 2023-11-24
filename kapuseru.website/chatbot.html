@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Bot</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 padding_right0">
+          <!-- Formulário de contato -->
+        </div>
+        <div class="col-md-6 padding_left0">
+          <div class="map_main">
+            <!-- Mapa -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botão flutuante do chat bot -->
+  <div class="chatbot-button">
+    <button onclick="toggleChatBot()">Chat Bot</button>
+  </div>
+
+  <!-- Chat bot flutuante -->
+  <div class="chatbot-container" id="chatbot-container">
+    <div id="chatbox">
+      <img src="avatar.png" alt="Avatar" class="avatar">
+    </div>
+    <input type="text" id="input" placeholder="Digite sua mensagem">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
